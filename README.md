@@ -28,4 +28,13 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \zainiafzan\widget\AutoloadExample::widget(); ?>```
+<?= \zainiafzan\widget\Dropzone::widget([
+		'options' => [
+			'addRemoveLinks' => true,
+		],
+		'clientEvents' => [
+			'complete' => "function(file){console.log(file)}",
+			'removedfile' => "function(file){alert(file.name + ' is removed')}",
+			'sending' => "function(file, xhr, formData){formData.append('".Yii::$app->request->csrfParam."','".Yii::$app->request->getCsrfToken() ."')}"
+		]
+	])?>```
