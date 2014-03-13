@@ -16,7 +16,7 @@
 	},
     "autoload": {
         "psr-4": {
-            "zainiafzan\\widget\\dropzone": ""
+            "zainiafzan\\widget\\dropzone\\": ""
         }
     }
 }
