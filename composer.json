@@ -1,0 +1,18 @@
+{
+    "name": "zainiafzan/yii2-dropzone",
+    "description": "Dropzone Js for Yii2 Widget",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","dropzone","upload"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zainiafzan",
+            "email": "zainiafzan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "zainiafzan\\widget\\": ""
+        }
+    }
+}
