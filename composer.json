@@ -10,9 +10,13 @@
             "email": "zainiafzan@gmail.com"
         }
     ],
+	"require": {
+		"yiisoft/yii2": "*",
+		"enyo/dropzone": "*"
+	},
     "autoload": {
         "psr-4": {
-            "zainiafzan\\widget\\": ""
+            "zainiafzan\\widget\\dropzone": ""
         }
     }
 }
